@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Deny direct access to SQLite DB
+<Files "database.sqlite">
+    Require all denied
+</Files>
+
+# Protect uploads from PHP execution
+<FilesMatch "\.php$">
+    <RequireAny>
+        Require all granted
+    </RequireAny>
+</FilesMatch>
