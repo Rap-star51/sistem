@@ -35,10 +35,10 @@
 | ptalam    | password | User PT    | New Booking, Status Booking |
 
 ## Setup di XAMPP
-1. Extract ke `C:\xampp\htdocs\sistem-kulit-v2\`
+1. Extract ke `C:\xampp\htdocs\tps-v2-updated\`
 2. Aktifkan `extension=pdo_sqlite` dan `extension=sqlite3` di php.ini
-3. Buka: `http://localhost/sistem-kulit-v2/init_db.php`
-4. Login: `http://localhost/sistem-kulit-v2/`
+3. Buka: `http://localhost/tps-v2-updated/init_db.php`
+4. Login: `http://localhost/tps-v2-updated/`
 
 ## Setup di VPS/Hosting (Domain)
 1. Upload ke direktori public web (mis. `/var/www/html/kulit/`)
