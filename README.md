@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistem Kulit Garaman TPS Lini 2 — v2.0
 
 ## Stack
@@ -81,3 +82,6 @@ sistem-kulit-v2/
     ├── css/theme.css  Master CSS (light + dark mode)
     └── uploads/documents/  File uploads
 ```
+=======
+# sistem
+>>>>>>> b65a6237ad34830b450a8981e92dd8ebf51a5714
